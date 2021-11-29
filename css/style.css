@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+img, svg, iframe {
+    max-width: 100%;
+}
+
+form {
+    display: grid;
+    place-items: center;
+    width: 230px;
+    height: 140px;
+    border: double;
+}
+div {
+    margin-top: 300px;
+    display: grid;
+    place-items: center;
+}
+input {
+    margin: 10px;
+}
