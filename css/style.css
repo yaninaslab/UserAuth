@@ -35,9 +35,11 @@ input {
     display: grid;
     place-items: center;
     margin-top: 50px;
+    grid-auto-flow: repeat(auto-fit, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
 .color_box {
-    width: 70px;
+    width: 80px;
     height: 30px;
     text-align: center;
     border: solid;
@@ -45,6 +47,10 @@ input {
 }
 #log_out {
     position: absolute;
-    margin-left: 90%;
-
+    margin-left: 80%;
+    margin-top: 30px;
+}
+#color_btn {
+    margin-left: 20%;
+    margin-top: 30px;
 }
