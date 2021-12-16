@@ -2,8 +2,7 @@
 function login_success(response) {
 
     Cookies.set("login_token", response['data']['token']);
-    var status = document.getElementById("login_status");
-    status.innerText = "You have successfully logged in!";
+    location.replace('/home.html');
 
 }
 

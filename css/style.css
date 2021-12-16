@@ -16,10 +16,35 @@ form {
     border: double;
 }
 div {
-    margin-top: 300px;
+    margin-top: 30px;
     display: grid;
     place-items: center;
 }
 input {
     margin: 10px;
+}
+#login_status {
+    text-align: center;
+    margin-top: 30px;
+}
+.message_success {
+    text-align: center;
+    margin-top: 30px;
+}
+#card_container {
+    display: grid;
+    place-items: center;
+    margin-top: 50px;
+}
+.color_box {
+    width: 70px;
+    height: 30px;
+    text-align: center;
+    border: solid;
+    padding: 5px;
+}
+#log_out {
+    position: absolute;
+    margin-left: 90%;
+
 }
